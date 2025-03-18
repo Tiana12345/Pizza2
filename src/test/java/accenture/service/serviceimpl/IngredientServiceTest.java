@@ -6,6 +6,7 @@ import com.accenture.repository.entity.Ingredient;
 import com.accenture.service.dto.IngredientRequestDto;
 import com.accenture.service.dto.IngredientResponseDto;
 import com.accenture.service.mapper.IngredientMapper;
+import com.accenture.service.serviceimpl.IngredientServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -14,16 +15,13 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 public class IngredientServiceTest {
     @InjectMocks
-    private com.accenture.service.IngredientServiceImpl service;
+    private IngredientServiceImpl service;
     @Mock
     private IngredientDao dao;
     @Mock

@@ -9,6 +9,8 @@ import java.util.List;
 
 public record PizzaRequestDto(
         @NotBlank
+        int id,
+        @NotBlank
         String nom,
         @NotNull
         Taille taille,
