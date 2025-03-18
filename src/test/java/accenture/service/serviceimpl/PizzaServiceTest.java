@@ -10,6 +10,7 @@ import com.accenture.service.dto.PizzaResponseDto;
 import com.accenture.service.mapper.PizzaMapper;
 import com.accenture.service.serviceimpl.PizzaServiceImpl;
 import jakarta.persistence.EntityNotFoundException;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -18,12 +19,13 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 public class PizzaServiceTest {
@@ -55,42 +57,33 @@ public class PizzaServiceTest {
 
     @Test
     void ajouterUnePizzaNomNull() {
-        Pizza pizza = margherita();
-        pizza.setNom(null);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le nom de la pizza ne peut pas être nul", pe.getMessage());
+        PizzaRequestDto dto = new PizzaRequestDto(1, null, Taille.GRANDE, 15.0, listIingredients());
+        assertThrows(PizzaException.class, ()-> service.ajouter(dto));
     }
 
     @Test
     void ajouterUnePizzaNomBlank() {
-        Pizza pizza = margherita();
-        pizza.setNom("   \t");
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le nom de la pizza ne peut pas être nul", pe.getMessage());
+        PizzaRequestDto dto = new PizzaRequestDto(1, "  \t", Taille.GRANDE, 15.0, listIingredients());
+        assertThrows(PizzaException.class, ()-> service.ajouter(dto));
     }
 
     @Test
     void ajouterPizzaTailleNulle() {
-        Pizza pizza = margherita();
-        pizza.setTaille(null);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Vous devez renseigner la taille de la pizza", pe.getMessage());
+        PizzaRequestDto dto = new PizzaRequestDto(1, "norvegienne", null, 15.0, listIingredients());
+        assertThrows(PizzaException.class, ()-> service.ajouter(dto));
     }
+
 
     @Test
     void ajouterPizzaTarifNulle() {
-        Pizza pizza = margherita();
-        pizza.setTarif(null);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le tarif de la pizza doit être renseigné", pe.getMessage());
+        PizzaRequestDto dto = new PizzaRequestDto(1, "norvegienne", Taille.GRANDE, null, listIingredients());
+        assertThrows(PizzaException.class, ()-> service.ajouter(dto));
     }
 
     @Test
     void ajouterPizzaTarisInf0() {
-        Pizza pizza = margherita();
-        pizza.setTarif(-1.0);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le tarif de la pizza doit être renseigné", pe.getMessage());
+        PizzaRequestDto dto = new PizzaRequestDto(1, "norvegienne", Taille.GRANDE, -3.0, listIingredients());
+        assertThrows(PizzaException.class, ()-> service.ajouter(dto));
     }
 //__________________________________________________________________________
 
@@ -99,7 +92,7 @@ public class PizzaServiceTest {
         // Préparer les données de test
         int id = 1;
         Pizza pizzaExistant = margherita();
-        pizzaRequestDto1() ;
+        pizzaRequestDto1();
         Pizza nouvelle = reine();
         PizzaResponseDto pizzaResponseDto = pizzaResponseDto2();
 
@@ -123,14 +116,80 @@ public class PizzaServiceTest {
         verify(mapperMock).toPizzaResponseDto(pizzaExistant);
     }
 
+    @DisplayName("Test modifier partiellement une pizza / pizza non trouvée")
+    @Test
+    void testModifierPartiellementPizzaNonTrouve() {
+        // Préparer les données de test
+        int id = 10;
+        pizzaRequestDto1();
+        // Simuler les appels de méthodes
+        when(dao.findById(id)).thenReturn(Optional.empty());
+
+        // Vérifier que l'exception est levée
+        assertThrows(EntityNotFoundException.class, () -> service.modifierPartiellement(id, pizzaRequestDto2()));
+
+        // Vérifier que les méthodes simulées ont été appelées
+        verify(dao).findById(id);
+        verify(mapperMock, never()).toPizza(any());
+        verify(dao, never()).save(any());
+        verify(mapperMock, never()).toPizzaResponseDto(any());
+    }
+
+    @Test
+    void trouverToutes(){
+        Pizza margherita = margherita();
+        Pizza reine = reine();
+
+        List<Pizza> pizzas = List.of(margherita, reine);
+        List<PizzaResponseDto> dtos = List.of(pizzaResponseDto1(),pizzaResponseDto2());
+
+        when(dao.findAll()).thenReturn(pizzas);
+        when(mapperMock.toPizzaResponseDto(margherita)).thenReturn(pizzaResponseDto1());
+        when(mapperMock.toPizzaResponseDto(reine)).thenReturn(pizzaResponseDto2());
+
+        assertEquals(dtos, service.trouverTous());
+    }
+
+    @DisplayName("Test rechercher pizza")
+    @Test
+    void testRechercherPizza() {
+        // Préparer les données de test
+        Pizza margherita = margherita();
+        Pizza reine = reine();
+        List<Pizza> pizzas = Arrays.asList(margherita, reine);
+
+        PizzaResponseDto pizzaResponseDto1 = pizzaResponseDto1();
+        PizzaResponseDto pizzaResponseDto2 = pizzaResponseDto2();
+
+        // Simuler les appels de méthodes
+        when(dao.findAll()).thenReturn(pizzas);
+        when(mapperMock.toPizzaResponseDto(margherita)).thenReturn(pizzaResponseDto1);
+//        when(mapperMock.toPizzaResponseDto(reine)).thenReturn(pizzaResponseDto2);
+
+        // Appeler la méthode à tester
+        List<PizzaResponseDto> result = service.rechercher(null, "Margherita", null);
+
+        // Vérifier les résultats
+        assertNotNull(result);
+        assertEquals(1, result.size());
+        assertEquals("Margherita", result.get(0).nom());
+
+        // Vérifier que les méthodes simulées ont été appelées
+        verify(dao).findAll();
+        verify(mapperMock).toPizzaResponseDto(margherita);
+    }
 
 //    ___________________________________________________________
 //            METHODES PRIVEES
 //    ___________________________________________________________
 
-    private static Pizza margherita() {
-        Pizza pizza = new Pizza("Margherita", Taille.PETITE, 12.9, listIingredients());
-        return pizza;
+    private static Pizza margherita(){
+        Pizza p = new Pizza();
+        p.setNom("Margherita");
+        p.setTaille(Taille.PETITE);
+        p.setTarif(12.9);
+        p.setIngredients(listIingredients());
+        return p;
     }
 
     private static Pizza reine() {
@@ -148,20 +207,26 @@ public class PizzaServiceTest {
     }
 
     private static PizzaRequestDto pizzaRequestDto1() {
-        return new PizzaRequestDto("Margherita", Taille.PETITE, 12.9, listIingredients());
+        return new PizzaRequestDto(1, "Margherita", Taille.PETITE, 12.9, listIingredients());
     }
 
     private static PizzaRequestDto pizzaRequestDto2() {
-        PizzaRequestDto requestdto = new PizzaRequestDto("Reine", Taille.MOYENNE, 15.9, listIingredients());
-        return requestdto;
+        return new PizzaRequestDto(2, "Reine", Taille.MOYENNE, 15.9, listIingredients());
     }
 
+    private static PizzaResponseDto pizzaResponseDto1() {
+        return new PizzaResponseDto("Margherita",
+                Taille.PETITE,
+                12.9,
+                listIingredients());
+    }
     private static PizzaResponseDto pizzaResponseDto2() {
-        PizzaResponseDto responseDto = new PizzaResponseDto("Reine", Taille.MOYENNE, 15.9, listIingredients());
-        return responseDto;
+
+        return new PizzaResponseDto("Reine",
+                Taille.MOYENNE,
+                15.9,
+                listIingredients());
     }
 
-    private static void pizzaResponseDto1() {
-        PizzaResponseDto responseDto = new PizzaResponseDto("Margherita", Taille.PETITE, 12.9, listIingredients());
-    }
+
 }

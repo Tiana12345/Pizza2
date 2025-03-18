@@ -1,4 +1,4 @@
-package com.accenture.service;
+package com.accenture.service.serviceimpl;
 
 import com.accenture.exception.IngredientException;
 import com.accenture.repository.dao.IngredientDao;
@@ -6,6 +6,7 @@ import com.accenture.repository.entity.Ingredient;
 import com.accenture.service.dto.IngredientRequestDto;
 import com.accenture.service.dto.IngredientResponseDto;
 import com.accenture.service.mapper.IngredientMapper;
+import com.accenture.service.service.IngredientService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
