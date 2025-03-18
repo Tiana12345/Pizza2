@@ -5,19 +5,15 @@ import com.accenture.model.Taille;
 import com.accenture.repository.entity.Ingredient;
 import com.accenture.repository.entity.Pizza;
 import com.accenture.service.service.PizzaService;
-import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.mockito.Mockito.when;
 
 @WebMvcTest(controllers = {PizzaController.class})
 public class PizzaControllerTest {
@@ -45,8 +41,12 @@ public class PizzaControllerTest {
     }
 
     private static Pizza reine() {
-        Pizza pizza = new Pizza("Reine", Taille.MOYENNE, 15.9, listIingredients());
-        return pizza;
+        Pizza p2 = new Pizza();
+        p2.setNom("Reine");
+        p2.setTaille(Taille.MOYENNE);
+        p2.setTarif(15.9);
+        p2.setIngredients(listIingredients());
+        return p2;
     }
 
     private static List<Ingredient> listIingredients() {

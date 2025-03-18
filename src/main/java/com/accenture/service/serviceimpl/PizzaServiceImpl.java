@@ -21,12 +21,18 @@ public class PizzaServiceImpl implements PizzaService {
 
     private final PizzaDao pizzaDao;
     private final PizzaMapper pizzaMapper;
-    private final PizzaPriceManager priceManager;
+    private PizzaPriceManager priceManager;
 
     public PizzaServiceImpl(PizzaDao pizzaDao, PizzaMapper pizzaMapper) {
         this.pizzaDao = pizzaDao;
         this.pizzaMapper = pizzaMapper;
-        this.priceManager = new PizzaPriceManager(); // Initialiser le gestionnaire de prix des pizzas
+    }
+
+    // Méthode pour initialiser le gestionnaire de prix des pizzas
+    private void initPriceManager(Pizza pizza) {
+        if (priceManager == null) {
+            priceManager = new PizzaPriceManager(pizza);
+        }
     }
 
     @Override
@@ -34,6 +40,7 @@ public class PizzaServiceImpl implements PizzaService {
         verifPizza(pizzaRequestDto);
 
         Pizza pizza = pizzaMapper.toPizza(pizzaRequestDto);
+        initPriceManager(pizza); // Initialiser le gestionnaire de prix
         pizza.setTarif(priceManager.getPrice(pizza.getTaille())); // Utiliser le gestionnaire de prix
         Pizza pizzaEnreg = pizzaDao.save(pizza);
 
@@ -56,6 +63,7 @@ public class PizzaServiceImpl implements PizzaService {
             throw new PizzaException("Le nom de la pizza ne peut pas être nul ou vide. ");
         }
 
+        initPriceManager(pizzaExistant); // Initialiser le gestionnaire de prix
         pizzaExistant.setTarif(priceManager.getPrice(pizzaExistant.getTaille())); // Utiliser le gestionnaire de prix
         Pizza pizzaEnreg = pizzaDao.save(pizzaExistant);
         return pizzaMapper.toPizzaResponseDto(pizzaEnreg);
@@ -87,37 +95,44 @@ public class PizzaServiceImpl implements PizzaService {
                 .toList();
     }
 
-    // Méthode pour obtenir le prix d'une pizza en fonction de sa taille
     @Override
     public double getPizzaPrice(Taille taille) {
+        if (priceManager == null) {
+            throw new IllegalStateException("Le gestionnaire de prix n'est pas initialisé");
+        }
         return priceManager.getPrice(taille);
     }
 
-    // Méthode pour définir le prix d'une pizza en fonction de sa taille
     @Override
     public void setPizzaPrice(Taille taille, double prix) {
+        if (priceManager == null) {
+            throw new IllegalStateException("Le gestionnaire de prix n'est pas initialisé");
+        }
         priceManager.setPrice(taille, prix);
     }
 
-    // Méthode pour augmenter les prix des pizzas
     @Override
     public void increasePizzaPrices(double percentage) {
+        if (priceManager == null) {
+            throw new IllegalStateException("Le gestionnaire de prix n'est pas initialisé");
+        }
         for (Taille taille : Taille.values()) {
             double currentPrice = priceManager.getPrice(taille);
             priceManager.setPrice(taille, currentPrice * (1 + percentage / 100));
         }
     }
 
-    // Méthode pour diminuer les prix des pizzas
     @Override
     public void decreasePizzaPrices(double percentage) {
+        if (priceManager == null) {
+            throw new IllegalStateException("Le gestionnaire de prix n'est pas initialisé");
+        }
         for (Taille taille : Taille.values()) {
             double currentPrice = priceManager.getPrice(taille);
             priceManager.setPrice(taille, currentPrice * (1 - percentage / 100));
         }
     }
 
-    // Méthodes privées
     private void verifPizza(PizzaRequestDto pizzaRequestDto) {
         if (pizzaRequestDto == null) {
             throw new PizzaException("La pizza doit exister");
