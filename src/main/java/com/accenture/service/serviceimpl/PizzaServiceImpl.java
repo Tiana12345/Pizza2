@@ -9,6 +9,7 @@ import com.accenture.service.dto.PizzaRequestDto;
 import com.accenture.service.dto.PizzaResponseDto;
 import com.accenture.service.mapper.PizzaMapper;
 import com.accenture.model.Taille;
+import com.accenture.service.service.PizzaService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class PizzaServiceImpl implements com.accenture.service.service.PizzaService {
+public class PizzaServiceImpl implements PizzaService {
 
     private final PizzaDao pizzaDao;
     private final PizzaMapper pizzaMapper;

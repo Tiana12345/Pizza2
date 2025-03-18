@@ -9,6 +9,7 @@ import com.accenture.service.dto.PizzaRequestDto;
 import com.accenture.service.dto.PizzaResponseDto;
 import com.accenture.service.mapper.PizzaMapper;
 import com.accenture.service.service.PizzaService;
+import com.accenture.service.serviceimpl.PizzaServiceImpl;
 import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -30,7 +31,7 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 public class PizzaServiceTest {
     @InjectMocks
-    private PizzaService service;
+    private PizzaServiceImpl service;
     @Mock
     PizzaDao dao = Mockito.mock(PizzaDao.class);
     @Mock
