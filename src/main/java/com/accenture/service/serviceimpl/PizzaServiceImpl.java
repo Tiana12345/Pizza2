@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class PizzaServiceImpl {
+public class PizzaServiceImpl implements com.accenture.service.service.PizzaService {
 
     private final PizzaDao pizzaDao;
     private final PizzaMapper pizzaMapper;
@@ -28,6 +28,7 @@ public class PizzaServiceImpl {
         this.priceManager = new PizzaPriceManager(); // Initialiser le gestionnaire de prix des pizzas
     }
 
+    @Override
     public PizzaResponseDto ajouter(PizzaRequestDto pizzaRequestDto) throws PizzaException {
         verifPizza(pizzaRequestDto);
 
@@ -38,6 +39,7 @@ public class PizzaServiceImpl {
         return pizzaMapper.toPizzaResponseDto(pizzaEnreg);
     }
 
+    @Override
     public PizzaResponseDto modifierPartiellement(Integer id, PizzaRequestDto pizzaRequestDto) throws PizzaException, EntityNotFoundException {
         Optional<Pizza> optPizza = pizzaDao.findById(id);
         if (optPizza.isEmpty())
@@ -58,12 +60,14 @@ public class PizzaServiceImpl {
         return pizzaMapper.toPizzaResponseDto(pizzaEnreg);
     }
 
+    @Override
     public List<PizzaResponseDto> trouverTous() {
         return pizzaDao.findAll().stream()
                 .map(pizzaMapper::toPizzaResponseDto)
                 .toList();
     }
 
+    @Override
     public void supprimer(int id) throws EntityNotFoundException {
         if (pizzaDao.existsById(id))
             pizzaDao.deleteById(id);
@@ -71,6 +75,7 @@ public class PizzaServiceImpl {
             throw new EntityNotFoundException("Aucune pizza enregistrée avec cet id");
     }
 
+    @Override
     public List<PizzaResponseDto> rechercher(Integer id, String nom, Ingredient ingredient) throws PizzaException {
         List<Pizza> liste = pizzaDao.findAll();
 
@@ -82,16 +87,19 @@ public class PizzaServiceImpl {
     }
 
     // Méthode pour obtenir le prix d'une pizza en fonction de sa taille
+    @Override
     public double getPizzaPrice(Taille taille) {
         return priceManager.getPrice(taille);
     }
 
     // Méthode pour définir le prix d'une pizza en fonction de sa taille
+    @Override
     public void setPizzaPrice(Taille taille, double prix) {
         priceManager.setPrice(taille, prix);
     }
 
     // Méthode pour augmenter les prix des pizzas
+    @Override
     public void increasePizzaPrices(double percentage) {
         for (Taille taille : Taille.values()) {
             double currentPrice = priceManager.getPrice(taille);
@@ -100,6 +108,7 @@ public class PizzaServiceImpl {
     }
 
     // Méthode pour diminuer les prix des pizzas
+    @Override
     public void decreasePizzaPrices(double percentage) {
         for (Taille taille : Taille.values()) {
             double currentPrice = priceManager.getPrice(taille);
