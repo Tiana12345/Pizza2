@@ -1,5 +1,6 @@
 package com.accenture.controller;
 
+import com.accenture.model.Taille;
 import com.accenture.repository.entity.Ingredient;
 import com.accenture.service.dto.PizzaRequestDto;
 import com.accenture.service.dto.PizzaResponseDto;
@@ -18,7 +19,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Slf4j
 @RestController
@@ -31,25 +34,34 @@ public class PizzaController {
         this.pizzaService = pizzaService;
     }
 
-    @PostMapping
+    @PostMapping("/ajouter")
     @Operation(summary = "Ajouter une nouvelle pizza", description = "Ajoute une nouvelle pizza à la base de données")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "201", description = "Pizza créée avec succès"),
             @ApiResponse(responseCode = "400", description = "Requête invalide")
     })
     public ResponseEntity<Void> ajouter(
-            @Parameter(description = "Détails de la pizza à ajouter", required = true) @Valid @RequestBody PizzaRequestDto pizzaRequestDto) {
+            @Parameter(description = "Nom de la pizza") @RequestParam(required = true) String nom,
+            @Parameter(description = "Tarif de la pizza pour PETITE taille") @RequestParam(required = true) Double petiteTarif,
+            @Parameter(description = "Tarif de la pizza pour MOYENNE taille") @RequestParam(required = true) Double moyenneTarif,
+            @Parameter(description = "Tarif de la pizza pour GRANDE taille") @RequestParam(required = true) Double grandeTarif,
+            @Parameter(description = "Liste des ingrédients de la pizza") @RequestParam(required = true) List<Integer> ingrs) {
 
-        log.info("Ajout d'une nouvelle pizza : {}", pizzaRequestDto);
+        // Créez la carte tarif
+        Map<Taille, Double> tarif = new HashMap<>();
+        tarif.put(Taille.PETITE, petiteTarif);
+        tarif.put(Taille.MOYENNE, moyenneTarif);
+        tarif.put(Taille.GRANDE, grandeTarif);
+
+        // Créez votre DTO avec les valeurs des paramètres
+        PizzaRequestDto pizzaRequestDto = new PizzaRequestDto(nom, tarif, ingrs);
+
+        // Traitez le DTO comme nécessaire
         PizzaResponseDto pizzaEnreg = pizzaService.ajouter(pizzaRequestDto);
-        URI location = ServletUriComponentsBuilder
-                .fromCurrentRequest()
-                .path("/{id}")
-                .buildAndExpand(pizzaEnreg.id())
-                .toUri();
-        log.info("Pizza ajoutée avec succès : {}", pizzaEnreg);
-        return ResponseEntity.created(location).build();
+        return ResponseEntity.ok().build();
     }
+
+
 
     @GetMapping
     @Operation(summary = "Obtenir toutes les pizzas", description = "Récupère la liste de toutes les pizzas disponibles")

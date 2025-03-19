@@ -116,3 +116,13 @@
 2025-03-19 21:06:19 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 10.022 seconds (process running for 12.269)
 2025-03-19 21:12:45 [http-nio-8080-exec-7] INFO  c.a.controller.PizzaController - Ajout d'une nouvelle pizza : PizzaRequestDto[nom=Margherita, tarif={PETITE=8.0, MOYENNE=12.0, GRANDE=18.0}, ingrs=[1, 2]]
 2025-03-19 21:12:45 [http-nio-8080-exec-7] INFO  c.a.controller.PizzaController - Pizza ajoutée avec succès : PizzaResponseDto[id=1, nom=Margherita, tarif={GRANDE=17.0, MOYENNE=13.0, PETITE=9.0}, ingredients=[tomates, emmental]]
+2025-03-19 22:30:18 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 38860 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 22:30:18 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 22:30:18 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 22:30:29 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 11.555 seconds (process running for 13.958)
+2025-03-19 22:33:37 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 44520 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 22:33:37 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 22:33:37 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 22:33:47 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 10.787 seconds (process running for 12.606)
+2025-03-19 22:34:39 [http-nio-8080-exec-1] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 1
+2025-03-19 22:34:47 [http-nio-8080-exec-3] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 2
