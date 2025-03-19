@@ -97,3 +97,7 @@
 2025-03-19 16:35:47 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 37772 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
 2025-03-19 16:35:47 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
 2025-03-19 16:35:47 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:38:04 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 33744 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:38:04 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:38:04 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:38:16 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 13.002 seconds (process running for 14.052)

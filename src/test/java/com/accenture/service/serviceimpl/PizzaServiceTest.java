@@ -1,4 +1,4 @@
-package accenture.service.serviceimpl;
+package com.accenture.service.serviceimpl;
 
 import com.accenture.exception.PizzaException;
 import com.accenture.model.Taille;
