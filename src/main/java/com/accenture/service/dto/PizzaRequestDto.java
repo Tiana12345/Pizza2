@@ -5,20 +5,18 @@ import com.accenture.repository.entity.Ingredient;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public record PizzaRequestDto(
         @NotBlank
-        int id,
-        @NotBlank
         String nom,
+        Map<Taille,Double> tarif,
         @NotNull
-        Taille taille,
-        @NotNull
-        Double tarif,
-        @NotNull
-        List<Ingredient> ingredients
+        List<Integer> ingrs
 
 
 ) {
+
 }
