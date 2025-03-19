@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface IngredientService {
     IngredientResponseDto ajouter(IngredientRequestDto ingredientRequestDto) throws IngredientException;
-    List<IngredientResponseDto> trouverToutes();
+    List<IngredientResponseDto> trouverTous();
 
     IngredientResponseDto modifierPartiellement(int id, IngredientRequestDto ingredientRequestDto) throws IngredientException, EntityNotFoundException;
 }

@@ -35,7 +35,7 @@ public class IngredientServiceImpl implements IngredientService {
 
 
     @Override
-    public List<IngredientResponseDto> trouverToutes() {
+    public List<IngredientResponseDto> trouverTous() {
         return dao.findAll().stream()
                 .map(mapper::toIngredientResponseDto)
                 .toList();
