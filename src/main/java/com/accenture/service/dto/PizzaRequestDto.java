@@ -10,13 +10,10 @@ import java.util.List;
 import java.util.Map;
 
 public record PizzaRequestDto(
-        @NotBlank
+        @NotBlank(message = "Le nom ne doit pas être vide")
         String nom,
-        Map<Taille,Double> tarif,
-        @NotNull
+        Map<Taille, Double> tarif,
+        @NotNull(message = "Les ingrédients ne doivent pas être nuls")
         List<Integer> ingrs
-
-
 ) {
-
 }

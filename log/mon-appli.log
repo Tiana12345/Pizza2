@@ -101,3 +101,18 @@
 2025-03-19 16:38:04 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
 2025-03-19 16:38:04 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
 2025-03-19 16:38:16 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 13.002 seconds (process running for 14.052)
+2025-03-19 20:54:56 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 40488 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 20:54:56 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 20:54:56 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 20:55:12 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 17.742 seconds (process running for 21.884)
+2025-03-19 20:55:52 [http-nio-8080-exec-5] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 20:56:09 [http-nio-8080-exec-10] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 1
+2025-03-19 20:56:23 [http-nio-8080-exec-3] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 20:56:36 [http-nio-8080-exec-1] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 2
+2025-03-19 20:57:38 [http-nio-8080-exec-2] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 21:06:10 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 20056 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 21:06:10 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 21:06:10 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 21:06:19 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 10.022 seconds (process running for 12.269)
+2025-03-19 21:12:45 [http-nio-8080-exec-7] INFO  c.a.controller.PizzaController - Ajout d'une nouvelle pizza : PizzaRequestDto[nom=Margherita, tarif={PETITE=8.0, MOYENNE=12.0, GRANDE=18.0}, ingrs=[1, 2]]
+2025-03-19 21:12:45 [http-nio-8080-exec-7] INFO  c.a.controller.PizzaController - Pizza ajoutée avec succès : PizzaResponseDto[id=1, nom=Margherita, tarif={GRANDE=17.0, MOYENNE=13.0, PETITE=9.0}, ingredients=[tomates, emmental]]

@@ -1,13 +1,11 @@
 package com.accenture.controller;
 
-import ch.qos.logback.classic.Logger;
 import com.accenture.repository.entity.Ingredient;
 import com.accenture.service.dto.PizzaRequestDto;
 import com.accenture.service.dto.PizzaResponseDto;
 import com.accenture.service.serviceimpl.PizzaServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -16,6 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
@@ -39,7 +38,8 @@ public class PizzaController {
             @ApiResponse(responseCode = "400", description = "Requête invalide")
     })
     public ResponseEntity<Void> ajouter(
-            @Parameter(description = "Détails de la pizza à ajouter", required = true) @RequestBody @Valid PizzaRequestDto pizzaRequestDto) {
+            @Parameter(description = "Détails de la pizza à ajouter", required = true) @Valid @RequestBody PizzaRequestDto pizzaRequestDto) {
+
         log.info("Ajout d'une nouvelle pizza : {}", pizzaRequestDto);
         PizzaResponseDto pizzaEnreg = pizzaService.ajouter(pizzaRequestDto);
         URI location = ServletUriComponentsBuilder
