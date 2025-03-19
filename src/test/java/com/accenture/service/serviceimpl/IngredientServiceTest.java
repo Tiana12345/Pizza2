@@ -1,4 +1,4 @@
-package accenture.service.serviceimpl;
+package com.accenture.service.serviceimpl;
 
 import com.accenture.exception.IngredientException;
 import com.accenture.repository.dao.IngredientDao;
@@ -93,7 +93,7 @@ public class IngredientServiceTest {
         Mockito.when(dao.findAll()).thenReturn(liste);
         Mockito.when(mapper.toIngredientResponseDto(ingredient1)).thenReturn(ingredientResponseDto1);
         Mockito.when(mapper.toIngredientResponseDto(ingredient2)).thenReturn(ingredientResponseDto2);
-        assertEquals(dtos, service.trouverToutes());
+        assertEquals(dtos, service.trouverTous());
     }
 
     @Test
@@ -109,6 +109,7 @@ public class IngredientServiceTest {
         Mockito.when(mapper.toIngredientResponseDto(ingrNouvQuant)).thenReturn(ingredientResponseDto);
         assertEquals(ingredientResponseDto, service.modifierPartiellement(1, ingredientRequestDto));
     }
+
 
 
 
