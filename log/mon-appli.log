@@ -2,3 +2,675 @@
 2025-03-20 00:02:13 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
 2025-03-20 00:02:13 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
 2025-03-20 00:02:15 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 1.354 seconds (process running for 5058.822)
+
+2025-03-19 09:56:35 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 29328 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 09:56:35 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 09:56:35 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:37:59 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 996 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 10:37:59 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:37:59 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:39:39 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 26644 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 10:39:39 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:39:39 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:41:18 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 2796 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 10:41:18 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:41:18 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:49:59 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 5364 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 10:49:59 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:49:59 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:50:06 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 7.082 seconds (process running for 8.04)
+2025-03-19 11:11:53 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 11:11:53 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 11:11:53 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 11:12:05 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 12.65 seconds (process running for 27.636)
+2025-03-19 11:58:11 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 11:58:11 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 11:58:11 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 11:58:12 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 1.443 seconds (process running for 2795.515)
+2025-03-19 11:58:21 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 11:58:21 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 11:58:21 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 11:58:22 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 0.903 seconds (process running for 2805.088)
+2025-03-19 12:03:52 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23676 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:03:52 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:03:52 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:03:59 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 7.136 seconds (process running for 9.26)
+2025-03-19 12:03:59 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23676 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:03:59 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:03:59 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:04:00 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.269 seconds (process running for 10.582)
+2025-03-19 12:04:02 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23676 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:04:02 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:04:02 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:04:04 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.307 seconds (process running for 13.929)
+2025-03-19 12:04:04 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 12:04:04 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23676 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:04:04 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:04:04 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:04:05 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.785 seconds (process running for 15.032)
+2025-03-19 12:04:05 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 13
+2025-03-19 12:06:39 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 1804 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:06:39 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:06:39 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:06:44 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.716 seconds (process running for 20.078)
+2025-03-19 12:06:44 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 1804 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:06:44 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:06:44 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:06:45 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.719 seconds (process running for 20.843)
+2025-03-19 12:06:46 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 20
+2025-03-19 12:13:55 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 33572 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:13:55 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:13:55 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:14:01 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.214 seconds (process running for 8.221)
+2025-03-19 12:14:01 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 33572 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:14:01 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:14:01 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:14:01 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.731 seconds (process running for 8.997)
+2025-03-19 12:14:03 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 27
+2025-03-19 12:23:16 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:23:16 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:23:16 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:23:17 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 1.063 seconds (process running for 4300.178)
+2025-03-19 12:23:19 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:23:19 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:23:19 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:23:19 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 0.829 seconds (process running for 4302.504)
+2025-03-19 12:23:22 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 35664 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:23:22 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:23:22 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:23:28 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.212 seconds (process running for 8.169)
+2025-03-19 12:23:28 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 35664 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:23:28 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:23:28 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:23:29 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.729 seconds (process running for 8.953)
+2025-03-19 12:23:30 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 34
+2025-03-19 12:29:15 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31688 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:29:15 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:29:15 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:29:20 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.744 seconds (process running for 7.444)
+2025-03-19 12:29:20 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31688 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:29:20 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:29:20 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:29:21 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.79 seconds (process running for 8.301)
+2025-03-19 12:29:22 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 41
+2025-03-19 12:35:15 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:35:15 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:35:15 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:35:16 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 1.083 seconds (process running for 5019.512)
+2025-03-19 12:35:25 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:35:25 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:35:25 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:35:26 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 0.764 seconds (process running for 5028.927)
+2025-03-19 12:35:32 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 24924 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:35:32 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:35:32 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:35:37 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.995 seconds (process running for 11.911)
+2025-03-19 12:35:38 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 24924 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:35:38 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:35:38 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:35:38 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.698 seconds (process running for 12.661)
+2025-03-19 12:35:39 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 48
+2025-03-19 12:37:55 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 34112 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:37:55 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:37:55 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:38:01 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.347 seconds (process running for 7.954)
+2025-03-19 12:38:02 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 34112 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:38:02 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:38:02 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:38:02 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.903 seconds (process running for 8.902)
+2025-03-19 12:39:48 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 27904 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:39:48 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:39:48 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:39:53 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.69 seconds (process running for 7.32)
+2025-03-19 12:39:53 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 27904 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:39:53 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:39:53 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:39:54 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.782 seconds (process running for 8.146)
+2025-03-19 12:44:48 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:44:48 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:44:48 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:44:48 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 0.717 seconds (process running for 5591.46)
+2025-03-19 12:44:50 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 30976 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:44:50 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:44:50 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:44:51 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 0.731 seconds (process running for 5593.681)
+2025-03-19 12:44:54 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23520 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:44:54 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:44:54 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:44:59 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.989 seconds (process running for 7.81)
+2025-03-19 12:45:00 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23520 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 12:45:00 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:45:00 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:45:01 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.154 seconds (process running for 9.024)
+2025-03-19 13:58:36 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 30440 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 13:58:36 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 13:58:36 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 13:58:42 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.803 seconds (process running for 19.828)
+2025-03-19 13:58:42 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 30440 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 13:58:42 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 13:58:42 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 13:58:42 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.606 seconds (process running for 20.468)
+2025-03-19 14:02:02 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 33080 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:02:02 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:02:02 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:02:08 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.987 seconds (process running for 7.872)
+2025-03-19 14:02:08 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 33080 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:02:08 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:02:08 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:02:09 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.742 seconds (process running for 8.688)
+2025-03-19 14:05:44 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 30076 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:05:44 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:05:44 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:05:50 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.655 seconds (process running for 11.604)
+2025-03-19 14:05:50 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 30076 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:05:50 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:05:50 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:05:51 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.924 seconds (process running for 12.576)
+2025-03-19 14:05:52 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 14:07:14 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32072 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:07:14 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:07:14 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:07:20 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.123 seconds (process running for 7.926)
+2025-03-19 14:07:20 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32072 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:07:20 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:07:20 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:07:21 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.705 seconds (process running for 8.701)
+2025-03-19 14:07:22 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 14:08:54 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 28808 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:08:54 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:08:54 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:09:00 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.044 seconds (process running for 7.757)
+2025-03-19 14:09:00 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 28808 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:09:00 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:09:00 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:09:00 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.694 seconds (process running for 8.523)
+2025-03-19 14:09:01 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 14:11:50 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 18424 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:11:50 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:11:50 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:11:55 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.538 seconds (process running for 7.423)
+2025-03-19 14:11:55 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 18424 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:11:55 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:11:55 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:11:56 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.754 seconds (process running for 8.222)
+2025-03-19 14:11:57 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 103
+2025-03-19 14:13:32 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 15732 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:13:32 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:13:32 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:13:38 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.45 seconds (process running for 7.155)
+2025-03-19 14:13:38 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 15732 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:13:38 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:13:38 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:13:38 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.761 seconds (process running for 7.959)
+2025-03-19 14:13:40 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 14:15:57 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29072 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:15:57 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:15:57 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:16:02 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.648 seconds (process running for 7.382)
+2025-03-19 14:16:02 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29072 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:16:02 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:16:02 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:16:03 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.695 seconds (process running for 8.141)
+2025-03-19 14:16:04 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 14:25:22 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 30252 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:25:22 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:25:22 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:27:51 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32836 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:27:51 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:27:51 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:45:29 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23520 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:45:29 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:45:29 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:46:00 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 6976 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:46:00 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:46:00 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:51:31 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 35264 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:51:31 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:51:31 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:56:49 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 24292 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 14:56:49 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:56:49 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:07:33 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 20932 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:07:33 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:07:33 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:08:23 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32860 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:08:23 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:08:23 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:11:22 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 5288 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:11:22 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:11:22 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:11:27 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.179 seconds (process running for 7.967)
+2025-03-19 15:11:27 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 5288 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:11:27 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:11:27 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:11:28 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.777 seconds (process running for 8.784)
+2025-03-19 15:11:30 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:11:57 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:11:57 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:11:57 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:02 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.73 seconds (process running for 7.622)
+2025-03-19 15:12:02 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:02 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:02 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:03 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.685 seconds (process running for 8.355)
+2025-03-19 15:12:04 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:12:04 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:04 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:04 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:05 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.74 seconds (process running for 10.386)
+2025-03-19 15:12:05 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 15:12:05 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:05 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:05 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:06 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.939 seconds (process running for 11.595)
+2025-03-19 15:12:06 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:12:06 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:06 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:06 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:07 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.839 seconds (process running for 12.566)
+2025-03-19 15:12:07 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:12:07 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:07 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:07 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:08 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.709 seconds (process running for 13.339)
+2025-03-19 15:12:08 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:12:08 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:08 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:08 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:09 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.908 seconds (process running for 14.386)
+2025-03-19 15:12:09 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 143
+2025-03-19 15:12:09 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31788 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:09 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:09 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:10 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.812 seconds (process running for 15.358)
+2025-03-19 15:12:10 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:12:49 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 26844 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:49 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:49 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:54 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.913 seconds (process running for 7.863)
+2025-03-19 15:12:55 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 26844 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:12:55 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:12:55 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:12:55 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.832 seconds (process running for 8.746)
+2025-03-19 15:12:56 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 15:13:46 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 33888 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:13:46 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:13:46 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:13:51 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.927 seconds (process running for 7.577)
+2025-03-19 15:13:51 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 33888 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:13:51 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:13:51 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:13:52 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.727 seconds (process running for 8.369)
+2025-03-19 15:13:53 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 15:14:28 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:28 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:28 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:34 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 7.2 seconds (process running for 9.684)
+2025-03-19 15:14:35 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:35 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:35 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:35 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.904 seconds (process running for 10.642)
+2025-03-19 15:14:37 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:14:37 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:37 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:37 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:37 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.663 seconds (process running for 12.732)
+2025-03-19 15:14:37 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 15:14:38 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:38 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:38 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:39 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.797 seconds (process running for 13.799)
+2025-03-19 15:14:39 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:39 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:39 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:39 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.782 seconds (process running for 14.632)
+2025-03-19 15:14:39 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:14:40 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:40 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:40 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:40 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.885 seconds (process running for 15.607)
+2025-03-19 15:14:40 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:14:41 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:41 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:41 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:41 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.852 seconds (process running for 16.623)
+2025-03-19 15:14:41 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 4
+2025-03-19 15:14:42 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 10984 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:14:42 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:14:42 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:14:42 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.697 seconds (process running for 17.46)
+2025-03-19 15:14:42 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:16:53 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 4880 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:16:53 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:16:53 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:16:58 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.463 seconds (process running for 7.214)
+2025-03-19 15:16:58 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 4880 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:16:58 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:16:58 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:16:59 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.756 seconds (process running for 8.021)
+2025-03-19 15:17:00 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:17:19 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:19 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:19 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:24 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.913 seconds (process running for 7.61)
+2025-03-19 15:17:25 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:25 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:25 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:26 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.949 seconds (process running for 8.612)
+2025-03-19 15:17:27 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:17:27 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:27 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:27 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:28 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.829 seconds (process running for 11.012)
+2025-03-19 15:17:28 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 15:17:28 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:28 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:28 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:29 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.047 seconds (process running for 12.341)
+2025-03-19 15:17:29 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:29 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:29 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:30 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.928 seconds (process running for 13.32)
+2025-03-19 15:17:30 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:17:30 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:30 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:30 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:31 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.864 seconds (process running for 14.246)
+2025-03-19 15:17:31 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:17:31 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:31 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:31 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:32 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.71 seconds (process running for 15.04)
+2025-03-19 15:17:32 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 4
+2025-03-19 15:17:32 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 29592 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:17:32 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:17:32 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:17:33 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.776 seconds (process running for 15.956)
+2025-03-19 15:17:33 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:21:40 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 9620 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:21:40 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:21:40 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:21:46 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.253 seconds (process running for 8.18)
+2025-03-19 15:21:46 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 9620 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:21:46 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:21:46 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:21:47 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.673 seconds (process running for 8.904)
+2025-03-19 15:21:48 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:22:32 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31080 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:22:32 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:22:32 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:22:37 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.522 seconds (process running for 7.262)
+2025-03-19 15:22:37 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 31080 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:22:37 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:22:37 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:22:38 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.71 seconds (process running for 8.035)
+2025-03-19 15:22:39 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:23:52 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 11756 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:23:52 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:23:52 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:23:58 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.703 seconds (process running for 7.602)
+2025-03-19 15:23:58 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 11756 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:23:58 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:23:58 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:23:58 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.698 seconds (process running for 8.345)
+2025-03-19 15:24:00 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:24:18 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 28728 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:24:18 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:24:18 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:24:25 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 8.155 seconds (process running for 10.869)
+2025-03-19 15:24:26 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 28728 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:24:26 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:24:26 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:24:27 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.212 seconds (process running for 12.135)
+2025-03-19 15:33:18 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 18716 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:33:18 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:33:18 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:33:24 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.204 seconds (process running for 8.146)
+2025-03-19 15:33:24 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 18716 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:33:24 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:33:24 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:33:25 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.671 seconds (process running for 8.877)
+2025-03-19 15:33:26 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Mauvaise requête
+2025-03-19 15:36:32 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 30540 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:36:32 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:36:32 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:36:38 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.029 seconds (process running for 8.084)
+2025-03-19 15:36:38 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 30540 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:36:38 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:36:38 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:36:38 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.663 seconds (process running for 8.808)
+2025-03-19 15:36:40 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Mauvaise requête
+2025-03-19 15:36:54 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:36:54 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:36:54 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:00 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 5.959 seconds (process running for 7.756)
+2025-03-19 15:37:00 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:00 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:00 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:01 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.081 seconds (process running for 8.901)
+2025-03-19 15:37:03 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 15:37:03 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:03 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:03 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:04 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.779 seconds (process running for 11.455)
+2025-03-19 15:37:04 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 15:37:04 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:04 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:04 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:05 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.842 seconds (process running for 12.513)
+2025-03-19 15:37:05 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Mauvaise requête
+2025-03-19 15:37:05 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:05 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:05 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:06 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.691 seconds (process running for 13.289)
+2025-03-19 15:37:06 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:37:06 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:06 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:06 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:06 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.644 seconds (process running for 14.033)
+2025-03-19 15:37:06 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:37:06 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:06 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:06 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:07 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.627 seconds (process running for 14.727)
+2025-03-19 15:37:07 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 4
+2025-03-19 15:37:07 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 32016 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:07 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:07 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:08 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.607 seconds (process running for 15.448)
+2025-03-19 15:37:08 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 15:37:49 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 14696 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 15:37:49 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:37:49 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:37:55 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 6.91 seconds (process running for 7.976)
+2025-03-19 16:18:08 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 29556 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:18:08 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:18:08 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:20:49 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34984 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:20:49 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:20:49 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:21:28 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 11632 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:21:28 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:21:28 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:26:42 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 29168 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:26:42 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:26:42 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:31:53 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 8888 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:31:53 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:31:53 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:35:33 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 31580 (C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2\target\classes started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:35:33 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:35:33 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:35:42 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 9.216 seconds (process running for 11.287)
+2025-03-19 16:39:22 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:22 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:22 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:28 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 6.498 seconds (process running for 9.168)
+2025-03-19 16:39:28 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:28 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:28 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:30 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.236 seconds (process running for 10.47)
+2025-03-19 16:39:31 [main] INFO  c.a.controller.IngredientController - L'ingrédient modifié avec succès
+2025-03-19 16:39:32 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:32 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:32 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:33 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.341 seconds (process running for 13.673)
+2025-03-19 16:39:33 [main] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 16:39:33 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:33 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:33 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:34 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.301 seconds (process running for 15.254)
+2025-03-19 16:39:34 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Mauvaise requête
+2025-03-19 16:39:35 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:35 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:35 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:36 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 1.164 seconds (process running for 16.516)
+2025-03-19 16:39:36 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 16:39:36 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:36 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:36 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:37 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.841 seconds (process running for 17.454)
+2025-03-19 16:39:37 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 16:39:37 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:37 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:37 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:38 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.945 seconds (process running for 18.488)
+2025-03-19 16:39:38 [main] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 4
+2025-03-19 16:39:38 [main] INFO  c.a.c.IngredientControllerTest - Starting IngredientControllerTest using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:38 [main] DEBUG c.a.c.IngredientControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:38 [main] INFO  c.a.c.IngredientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:39 [main] INFO  c.a.c.IngredientControllerTest - Started IngredientControllerTest in 0.986 seconds (process running for 19.613)
+2025-03-19 16:39:39 [main] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 16:39:39 [main] INFO  c.a.ProjetPizzeriaApplicationTests - Starting ProjetPizzeriaApplicationTests using Java 23.0.2 with PID 23356 (started by natallia.krautsova in C:\Users\natallia.krautsova\Desktop\Cours\projet_a_2\Pizza2)
+2025-03-19 16:39:39 [main] DEBUG c.a.ProjetPizzeriaApplicationTests - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:39:39 [main] INFO  c.a.ProjetPizzeriaApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:39:40 [main] INFO  c.a.ProjetPizzeriaApplicationTests - Started ProjetPizzeriaApplicationTests in 0.824 seconds (process running for 21.03)
+=======
+2025-03-19 09:40:43 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 29376 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 09:40:43 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 09:40:43 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 09:40:54 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 12.395 seconds (process running for 25.245)
+2025-03-19 09:41:15 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 09:41:15 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 09:41:15 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 09:41:24 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 9.422 seconds (process running for 10.455)
+2025-03-19 10:24:48 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 10:24:48 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:24:48 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:25:04 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 10:25:04 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:25:04 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:28:27 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 10:28:27 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:28:27 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:35:25 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 10:35:25 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:35:25 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:35:42 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 10:35:42 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:35:42 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:36:43 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 10:36:43 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:36:43 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:36:51 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 10:36:51 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 10:36:51 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 10:36:53 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 2.422 seconds (process running for 3340.099)
+2025-03-19 12:01:22 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:01:22 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:01:22 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:01:30 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:01:30 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:01:30 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:01:36 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:01:36 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:01:36 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:01:40 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 4.802 seconds (process running for 8426.881)
+2025-03-19 12:18:41 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:18:41 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:18:41 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:18:55 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:18:55 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:18:55 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:18:59 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:18:59 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:18:59 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:19:23 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:19:23 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:19:23 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:19:29 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:19:29 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:19:29 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 12:19:32 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 2.534 seconds (process running for 9498.366)
+2025-03-19 12:37:54 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 12:37:54 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 12:37:54 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:07:58 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 14:07:58 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:07:58 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:08:03 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 14:08:03 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:08:03 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:54:25 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 14:54:25 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:54:25 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 14:54:38 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 14:54:38 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 14:54:38 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:29:53 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 15:29:53 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:29:53 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 15:30:05 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 34204 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 15:30:05 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 15:30:05 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:25:17 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 7196 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:25:17 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:25:17 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:27:00 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 37500 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:27:00 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:27:00 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:28:11 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 15176 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:28:11 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:28:11 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:29:36 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 17384 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:29:36 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:29:36 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:32:42 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 41260 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:32:42 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:32:42 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:33:14 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 23324 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:33:14 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:33:14 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:33:28 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 14.6 seconds (process running for 16.581)
+2025-03-19 16:35:47 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 37772 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:35:47 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:35:47 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:38:04 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 33744 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 16:38:04 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 16:38:04 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 16:38:16 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 13.002 seconds (process running for 14.052)
+2025-03-19 20:54:56 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 40488 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 20:54:56 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 20:54:56 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 20:55:12 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 17.742 seconds (process running for 21.884)
+2025-03-19 20:55:52 [http-nio-8080-exec-5] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 20:56:09 [http-nio-8080-exec-10] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 1
+2025-03-19 20:56:23 [http-nio-8080-exec-3] INFO  c.a.controller.IngredientController - Ingrédients affichés avec succès
+2025-03-19 20:56:36 [http-nio-8080-exec-1] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 2
+2025-03-19 20:57:38 [http-nio-8080-exec-2] ERROR c.a.c.a.ApplicationControllerAdvice - Erreur de validation
+2025-03-19 21:06:10 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 20056 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 21:06:10 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 21:06:10 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 21:06:19 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 10.022 seconds (process running for 12.269)
+2025-03-19 21:12:45 [http-nio-8080-exec-7] INFO  c.a.controller.PizzaController - Ajout d'une nouvelle pizza : PizzaRequestDto[nom=Margherita, tarif={PETITE=8.0, MOYENNE=12.0, GRANDE=18.0}, ingrs=[1, 2]]
+2025-03-19 21:12:45 [http-nio-8080-exec-7] INFO  c.a.controller.PizzaController - Pizza ajoutée avec succès : PizzaResponseDto[id=1, nom=Margherita, tarif={GRANDE=17.0, MOYENNE=13.0, PETITE=9.0}, ingredients=[tomates, emmental]]
+2025-03-19 22:30:18 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 38860 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 22:30:18 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 22:30:18 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 22:30:29 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 11.555 seconds (process running for 13.958)
+2025-03-19 22:33:37 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Starting ProjetPizzeriaApplication using Java 23.0.2 with PID 44520 (C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2\target\classes started by tatiana.m.tessier in C:\Users\tatiana.m.tessier\IdeaProjects\Pizzeria2)
+2025-03-19 22:33:37 [restartedMain] DEBUG c.a.ProjetPizzeriaApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19 22:33:37 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 22:33:47 [restartedMain] INFO  c.a.ProjetPizzeriaApplication - Started ProjetPizzeriaApplication in 10.787 seconds (process running for 12.606)
+2025-03-19 22:34:39 [http-nio-8080-exec-1] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 1
+2025-03-19 22:34:47 [http-nio-8080-exec-3] INFO  c.a.controller.IngredientController - Ingrédient ajouté avec succès, ID : 2
