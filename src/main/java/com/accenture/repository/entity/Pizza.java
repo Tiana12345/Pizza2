@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.Map;
 
 @Data
 @AllArgsConstructor
@@ -16,16 +17,20 @@ public class Pizza {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
+
     String nom;
+
     @ManyToMany
     List<Ingredient> ingredients;
-    @Enumerated(EnumType.STRING)
-    Taille taille;
-    Double tarif;
 
-    public Pizza(String nom, Taille taille, Double tarif, List<Ingredient> ingredients) {
+    @ElementCollection
+    @CollectionTable(name = "pizza_taille_map", joinColumns = @JoinColumn(name = "entity_id"))
+    @MapKeyEnumerated(EnumType.STRING) // Stocke la clé de l'EnumMap sous forme de chaîne
+    @Column(name = "tarif") // Valeur stockée
+    Map<Taille, Double> tarif;
+
+    public Pizza(String nom, Map<Taille, Double> tarif, List<Ingredient> ingredients) {
         this.nom = nom;
-        this.taille = taille;
         this.tarif = tarif;
         this.ingredients = ingredients;
     }
