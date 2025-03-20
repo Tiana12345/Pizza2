@@ -2,14 +2,15 @@ package com.accenture.service.serviceimpl;
 
 import com.accenture.exception.PizzaException;
 import com.accenture.model.Taille;
+import com.accenture.repository.dao.IngredientDao;
 import com.accenture.repository.dao.PizzaDao;
 import com.accenture.repository.entity.Ingredient;
 import com.accenture.repository.entity.Pizza;
 import com.accenture.service.dto.PizzaRequestDto;
 import com.accenture.service.dto.PizzaResponseDto;
-import com.accenture.service.mapper.PizzaMapper;
 import com.accenture.service.serviceimpl.PizzaServiceImpl;
 import jakarta.persistence.EntityNotFoundException;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -17,151 +18,220 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 public class PizzaServiceTest {
     @InjectMocks
     private PizzaServiceImpl service;
     @Mock
-    PizzaDao dao = Mockito.mock(PizzaDao.class);
+    PizzaDao pizzaDao = Mockito.mock(PizzaDao.class);
     @Mock
-    PizzaMapper mapperMock;
+    IngredientDao ingredientDao = Mockito.mock(IngredientDao.class);
 
 
     @Test
-    void ajouterUnePizzaOk() {
-        Pizza pizzaAvantEnreg = reine();
-        pizzaAvantEnreg.setId(1);
-        PizzaRequestDto requestdto = pizzaRequestDto2();
+    void ajouterUnePizzaOk() throws PizzaException {
+        List<Ingredient> ingredients = List.of(
+                new Ingredient("Tomate", 5),
+                new Ingredient("Fromage", 7),
+                new Ingredient("Jambon", 3)
+        );
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.PETITE, 9.0);
+        tarifMap.put(Taille.MOYENNE, 13.0);
+        tarifMap.put(Taille.GRANDE, 17.0);
 
-        Pizza clientApresEnreg = reine();
-        PizzaResponseDto responseDto = pizzaResponseDto2();
+        PizzaRequestDto requestDto = new PizzaRequestDto("Reine", tarifMap, List.of(1, 2, 3));
 
-        when(mapperMock.toPizza(requestdto)).thenReturn(pizzaAvantEnreg);
-        when(dao.save(pizzaAvantEnreg)).thenReturn(clientApresEnreg);
-        when(mapperMock.toPizzaResponseDto(clientApresEnreg)).thenReturn(responseDto);
+        Pizza pizzaAvantEnreg = new Pizza("Reine", tarifMap, ingredients);
+        Pizza pizzaEnreg = new Pizza("Reine", tarifMap, ingredients);
+        pizzaEnreg.setId(1);
+        PizzaResponseDto responseDto = new PizzaResponseDto(1, "Reine", tarifMap, List.of("Tomate", "Fromage", "Jambon"));
 
-        assertSame(responseDto, service.ajouter(requestdto));
-        verify(dao, Mockito.times(1)).save(pizzaAvantEnreg);
-    }
+        // Configuration des mocks
+        when(ingredientDao.findAllById(requestDto.ingrs())).thenReturn(ingredients);
+        when(pizzaDao.save(any(Pizza.class))).thenReturn(pizzaEnreg);
 
-
-    @Test
-    void ajouterUnePizzaNomNull() {
-        Pizza pizza = margherita();
-        pizza.setNom(null);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le nom de la pizza ne peut pas être nul", pe.getMessage());
-    }
-
-    @Test
-    void ajouterUnePizzaNomBlank() {
-        Pizza pizza = margherita();
-        pizza.setNom("   \t");
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le nom de la pizza ne peut pas être nul", pe.getMessage());
+        // Exécution et vérification
+        assertEquals(responseDto, service.ajouter(requestDto));
+        verify(pizzaDao, Mockito.times(1)).save(any(Pizza.class));
+        verify(ingredientDao, Mockito.times(1)).findAllById(requestDto.ingrs());
     }
 
     @Test
-    void ajouterPizzaTailleNulle() {
-        Pizza pizza = margherita();
-        pizza.setTaille(null);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Vous devez renseigner la taille de la pizza", pe.getMessage());
+    void ajouterPizzaIngrNul() {
+        Map<Taille, Double> tarifMap = getTarifMap();
+
+        PizzaRequestDto dto = new PizzaRequestDto("norvegienne", tarifMap, null);
+        assertThrows(PizzaException.class, () -> service.ajouter(dto));
     }
 
     @Test
-    void ajouterPizzaTarifNulle() {
-        Pizza pizza = margherita();
-        pizza.setTarif(null);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le tarif de la pizza doit être renseigné", pe.getMessage());
-    }
+    void ajouterPizzaTarif0() {
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.GRANDE, 0.0);
 
-    @Test
-    void ajouterPizzaTarisInf0() {
-        Pizza pizza = margherita();
-        pizza.setTarif(-1.0);
-        PizzaException pe = assertThrows(PizzaException.class, () -> service.ajouter(pizzaRequestDto1()));
-        assertEquals("Le tarif de la pizza doit être renseigné", pe.getMessage());
+        PizzaRequestDto dto = new PizzaRequestDto("norvegienne", tarifMap, List.of(1, 2, 3));
+        assertThrows(PizzaException.class, () -> service.ajouter(dto));
     }
 //__________________________________________________________________________
+@Test
+void testModifierPartiellementOk() throws PizzaException, EntityNotFoundException {
+    // Préparer les données de test
+    int id = 1;
+    Pizza pizzaExistant = margherita();
+    Map<Taille, Double> tarifMap = new HashMap<>();
+    tarifMap.put(Taille.PETITE, 9.0);
+    tarifMap.put(Taille.MOYENNE, 13.0);
+    tarifMap.put(Taille.GRANDE, 17.0);
+    PizzaRequestDto requestDto = new PizzaRequestDto("Reine", tarifMap, List.of(1, 2, 3));
+    List<Ingredient> ingredients = List.of(
+            new Ingredient("Tomate", 5),
+            new Ingredient("Fromage", 7),
+            new Ingredient("Jambon", 3)
+    );
+    Pizza nouvelle = new Pizza("Reine", tarifMap, ingredients);
+    PizzaResponseDto pizzaResponseDto = new PizzaResponseDto(1, "Reine", tarifMap, List.of("Tomate", "Fromage", "Jambon"));
 
+    // Simuler les appels de méthodes
+    when(pizzaDao.findById(id)).thenReturn(Optional.of(pizzaExistant));
+    when(ingredientDao.findAllById(requestDto.ingrs())).thenReturn(ingredients);
+    when(pizzaDao.save(any(Pizza.class))).thenReturn(pizzaExistant);
+
+    // Appeler la méthode à tester
+    PizzaResponseDto result = service.modifierPartiellement(id, requestDto);
+
+    // Vérifier les résultats
+    assertNotNull(result);
+    assertEquals(pizzaResponseDto, result);
+
+    // Vérifier que les méthodes simulées ont été appelées
+    verify(pizzaDao).findById(id);
+    verify(ingredientDao).findAllById(requestDto.ingrs());
+    verify(pizzaDao).save(any(Pizza.class));
+}
+
+    @DisplayName("Test modifier partiellement une pizza / pizza non trouvée")
     @Test
-    void testModifierPartiellementOk() throws PizzaException, EntityNotFoundException {
-        // Préparer les données de test
-        int id = 1;
-        Pizza pizzaExistant = margherita();
-        pizzaRequestDto1() ;
-        Pizza nouvelle = reine();
-        PizzaResponseDto pizzaResponseDto = pizzaResponseDto2();
+    void testModifierPartiellementPizzaNonTrouve() {
+        int id = 10;
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.PETITE, 9.0);
+        tarifMap.put(Taille.MOYENNE, 13.0);
+        tarifMap.put(Taille.GRANDE, 17.0);
+        PizzaRequestDto requestDto = new PizzaRequestDto("Reine", tarifMap, List.of(1, 2, 3));
 
-        // Simuler les appels de méthodes
-        when(dao.findById(id)).thenReturn(Optional.of(pizzaExistant));
-        when(mapperMock.toPizza(pizzaRequestDto1())).thenReturn(nouvelle);
-        when(dao.save(pizzaExistant)).thenReturn(pizzaExistant);
-        when(mapperMock.toPizzaResponseDto(pizzaExistant)).thenReturn(pizzaResponseDto);
+        when(pizzaDao.findById(id)).thenReturn(Optional.empty());
 
-        // Appeler la méthode à tester
-        PizzaResponseDto result = service.modifierPartiellement(id, pizzaRequestDto1());
+        assertThrows(EntityNotFoundException.class, () -> service.modifierPartiellement(id, requestDto));
 
-        // Vérifier les résultats
-        assertNotNull(result);
-        assertEquals(pizzaResponseDto, result);
-
-        // Vérifier que les méthodes simulées ont été appelées
-        verify(dao).findById(id);
-        verify(mapperMock).toPizza(pizzaRequestDto1());
-        verify(dao).save(pizzaExistant);
-        verify(mapperMock).toPizzaResponseDto(pizzaExistant);
+        verify(pizzaDao).findById(id);
+        verify(pizzaDao, never()).save(any());
     }
 
+    @Test
+    void trouverToutes() {
+        Pizza margherita = margherita();
+        Pizza reine = reine();
+
+        List<Pizza> pizzas = List.of(margherita, reine);
+        List<PizzaResponseDto> dtos = List.of(pizzaResponseDto1(), pizzaResponseDto2());
+
+        when(pizzaDao.findAll()).thenReturn(pizzas);
+
+        assertEquals(dtos, service.trouverTous());
+    }
+
+    @DisplayName("Test rechercher pizza")
+    @Test
+    void testRechercherPizza() {
+        Pizza margherita = margherita();
+        Pizza reine = reine();
+        List<Pizza> pizzas = Arrays.asList(margherita, reine);
+
+        PizzaResponseDto pizzaResponseDto1 = pizzaResponseDto1();
+        PizzaResponseDto pizzaResponseDto2 = pizzaResponseDto2();
+
+        when(pizzaDao.findAll()).thenReturn(pizzas);
+
+        List<PizzaResponseDto> result = service.rechercher(null, "Margherita", null);
+
+        assertNotNull(result);
+        assertEquals(1, result.size());
+        assertEquals("Margherita", result.get(0).nom());
+
+        verify(pizzaDao).findAll();
+    }
 
 //    ___________________________________________________________
 //            METHODES PRIVEES
 //    ___________________________________________________________
+private static List<Ingredient> getIngredientList() {
+    List<Ingredient> ingredients = List.of(new Ingredient("Tomate", 5), new Ingredient("Fromage", 7), new Ingredient("Jambon", 3));
+    return ingredients;
+}
 
-    private static Pizza margherita() {
-        Pizza pizza = new Pizza("Margherita", Taille.PETITE, 12.9, listIingredients());
+    private static Map<Taille, Double> getTarifMap() {
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.PETITE, 9.0);
+        tarifMap.put(Taille.MOYENNE, 13.0);
+        tarifMap.put(Taille.GRANDE, 17.0);
+        return tarifMap;
+    }
+    public Pizza margherita() {
+        List<Ingredient> ingredients = List.of(
+                new Ingredient("Tomate", 5),
+                new Ingredient("Mozzarella", 7),
+                new Ingredient("Basilic", 2)
+        );
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.PETITE, 8.0);
+        tarifMap.put(Taille.MOYENNE, 12.0);
+        tarifMap.put(Taille.GRANDE, 16.0);
+
+        Pizza pizza = new Pizza("Margherita", tarifMap, ingredients);
+        pizza.setId(1);
         return pizza;
     }
+    public Pizza reine() {
+        List<Ingredient> ingredients = List.of(
+                new Ingredient("Tomate", 5),
+                new Ingredient("Fromage", 7),
+                new Ingredient("Jambon", 3),
+                new Ingredient("Champignons", 4)
+        );
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.PETITE, 9.0);
+        tarifMap.put(Taille.MOYENNE, 13.0);
+        tarifMap.put(Taille.GRANDE, 17.0);
 
-    private static Pizza reine() {
-        Pizza pizza = new Pizza("Reine", Taille.MOYENNE, 15.9, listIingredients());
+        Pizza pizza = new Pizza("Reine", tarifMap, ingredients);
+        pizza.setId(2);
         return pizza;
     }
+    public PizzaResponseDto pizzaResponseDto1() {
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.PETITE, 8.0);
+        tarifMap.put(Taille.MOYENNE, 12.0);
+        tarifMap.put(Taille.GRANDE, 16.0);
 
-    private static List<Ingredient> listIingredients() {
-        Ingredient tomate = new Ingredient("Tomate", 7);
-        Ingredient emmental = new Ingredient("Emmental", 8);
-        List<Ingredient> ingredients = new ArrayList<>();
-        ingredients.add(tomate);
-        ingredients.add(emmental);
-        return ingredients;
+        List<String> ingredients = List.of("Tomate", "Mozzarella", "Basilic");
+
+        return new PizzaResponseDto(1, "Margherita", tarifMap, ingredients);
     }
+    public PizzaResponseDto pizzaResponseDto2() {
+        Map<Taille, Double> tarifMap = new HashMap<>();
+        tarifMap.put(Taille.PETITE, 9.0);
+        tarifMap.put(Taille.MOYENNE, 13.0);
+        tarifMap.put(Taille.GRANDE, 17.0);
 
-    private static PizzaRequestDto pizzaRequestDto1() {
-        return new PizzaRequestDto("Margherita", Taille.PETITE, 12.9, listIingredients());
-    }
+        List<String> ingredients = List.of("Tomate", "Fromage", "Jambon", "Champignons");
 
-    private static PizzaRequestDto pizzaRequestDto2() {
-        PizzaRequestDto requestdto = new PizzaRequestDto("Reine", Taille.MOYENNE, 15.9, listIingredients());
-        return requestdto;
-    }
-
-    private static PizzaResponseDto pizzaResponseDto2() {
-        PizzaResponseDto responseDto = new PizzaResponseDto("Reine", Taille.MOYENNE, 15.9, listIingredients());
-        return responseDto;
-    }
-
-    private static void pizzaResponseDto1() {
-        PizzaResponseDto responseDto = new PizzaResponseDto("Margherita", Taille.PETITE, 12.9, listIingredients());
+        return new PizzaResponseDto(2, "Reine", tarifMap, ingredients);
     }
 }

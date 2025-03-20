@@ -1,22 +1,17 @@
 package com.accenture.service.dto;
 
 import com.accenture.model.Taille;
-import com.accenture.repository.entity.Ingredient;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 import java.util.List;
+import java.util.Map;
 
 public record PizzaRequestDto(
-        @NotBlank
+        @NotBlank(message = "Le nom ne doit pas être vide")
         String nom,
-        @NotNull
-        Taille taille,
-        @NotNull
-        Double tarif,
-        @NotNull
-        List<Ingredient> ingredients
-
-
+        Map<Taille, Double> tarif,
+        @NotNull(message = "Les ingrédients ne doivent pas être nuls")
+        List<Integer> ingrs
 ) {
 }
