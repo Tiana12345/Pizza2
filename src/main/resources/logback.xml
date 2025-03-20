@@ -15,7 +15,7 @@
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--  configuration de rotation quotidienne  -->
-            <fileNamePattern>spring-boot.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>log/sauvLog/spring-boot.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
     </appender>
@@ -27,7 +27,7 @@
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--  configuration de rotation quotidienne  -->
-            <fileNamePattern>mon-appli.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>log/sauvLog/mon-appli.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
     </appender>
