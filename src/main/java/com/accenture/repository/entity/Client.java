@@ -7,12 +7,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 public class Client {
     private String nom;
     @Id
-    private String  mail;
-
+    private String  email;
 }

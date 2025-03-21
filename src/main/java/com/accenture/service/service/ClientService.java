@@ -1,20 +1,19 @@
 package com.accenture.service.service;
 
 import com.accenture.exception.ClientException;
-import com.accenture.service.dto.ClientRequestDto;
-import com.accenture.service.dto.ClientResponseDto;
+import com.accenture.service.dto.ClientDto;
 import jakarta.persistence.EntityNotFoundException;
 
 import java.util.List;
 
 public interface ClientService {
-    ClientResponseDto ajouterClient(ClientRequestDto clientRequestDto) throws ClientException;
+    ClientDto ajouter(ClientDto clientDto) throws ClientException;
 
-    List<ClientResponseDto> trouverTousClients();
+    List<ClientDto> trouverTous ();
 
-    ClientResponseDto trouverByEmail(String email);
+    ClientDto trouverByEmail(String email);
 
-    void supprimer(int id) throws EntityNotFoundException;
+    void supprimer(String email) throws EntityNotFoundException;
 
-    ClientResponseDto modifierPartiellement(String email, ClientRequestDto clientRequestDto) throws ClientException;
+    ClientDto modifier(ClientDto clientDto) throws ClientException;
 }

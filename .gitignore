@@ -12,6 +12,7 @@ target/
 *.iml
 *.ipr
 
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -38,3 +39,5 @@ build/
 .DS_Store
 
 log/
+
+
