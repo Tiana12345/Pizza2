@@ -107,4 +107,5 @@ public class IngredientControllerTest {
                 .andExpect(jsonPath("$.type").value("Erreur validation"))
                 .andExpect(jsonPath("$.message").value( "La quantité doit être supérieure à zéro"));
     }
+
 }
