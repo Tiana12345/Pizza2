@@ -37,10 +37,10 @@ public class PizzaController {
     @PostMapping("/ajouter")
     @Operation(summary = "Ajouter une nouvelle pizza", description = "Ajoute une nouvelle pizza à la base de données")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "201", description = "Pizza créée avec succès"),
+            @ApiResponse(responseCode = "200", description = "Pizza créée avec succès"),
             @ApiResponse(responseCode = "400", description = "Requête invalide")
     })
-    public ResponseEntity<Void> ajouter(
+    public ResponseEntity<PizzaResponseDto> ajouter(
             @Parameter(description = "Nom de la pizza") @RequestParam(required = true) String nom,
             @Parameter(description = "Tarif de la pizza pour PETITE taille") @RequestParam(required = true) Double petiteTarif,
             @Parameter(description = "Tarif de la pizza pour MOYENNE taille") @RequestParam(required = true) Double moyenneTarif,
@@ -54,10 +54,11 @@ public class PizzaController {
         tarif.put(Taille.GRANDE, grandeTarif);
 
         // Créez votre DTO avec les valeurs des paramètres
-        PizzaRequestDto pizzaRequestDto = new PizzaRequestDto(nom, tarif, ingrs);
+        PizzaRequestDto pizzaRequestDto = new PizzaRequestDto(nom,tarif, ingrs);
 
         // Traitez le DTO comme nécessaire
-        PizzaResponseDto pizzaEnreg = pizzaService.ajouter(pizzaRequestDto);
+        pizzaService.ajouter(pizzaRequestDto);
+
         return ResponseEntity.ok().build();
     }
 
@@ -114,13 +115,8 @@ public class PizzaController {
             @Parameter(description = "Nom de l'ingrédient") @RequestParam(required = false) String ingredientNom) {
         log.info("Recherche de pizzas avec les critères : id={}, nom={}, ingredientNom={}", id, nom, ingredientNom);
 
-        Ingredient ingredient = null;
-        if (ingredientNom != null) {
-            ingredient = new Ingredient();
-            ingredient.setNom(ingredientNom);
-        }
 
-        List<PizzaResponseDto> pizzas = pizzaService.rechercher(id, nom, ingredient);
+        List<PizzaResponseDto> pizzas = pizzaService.rechercher(id, nom, ingredientNom);
         log.info("Nombre de pizzas trouvées : {}", pizzas.size());
         return pizzas;
     }

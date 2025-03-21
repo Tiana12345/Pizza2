@@ -8,7 +8,6 @@ import com.accenture.repository.entity.Ingredient;
 import com.accenture.repository.entity.Pizza;
 import com.accenture.service.dto.PizzaRequestDto;
 import com.accenture.service.dto.PizzaResponseDto;
-import com.accenture.service.serviceimpl.PizzaServiceImpl;
 import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -48,16 +47,13 @@ public class PizzaServiceTest {
 
         PizzaRequestDto requestDto = new PizzaRequestDto("Reine", tarifMap, List.of(1, 2, 3));
 
-        Pizza pizzaAvantEnreg = new Pizza("Reine", tarifMap, ingredients);
         Pizza pizzaEnreg = new Pizza("Reine", tarifMap, ingredients);
         pizzaEnreg.setId(1);
         PizzaResponseDto responseDto = new PizzaResponseDto(1, "Reine", tarifMap, List.of("Tomate", "Fromage", "Jambon"));
 
-        // Configuration des mocks
         when(ingredientDao.findAllById(requestDto.ingrs())).thenReturn(ingredients);
         when(pizzaDao.save(any(Pizza.class))).thenReturn(pizzaEnreg);
 
-        // Exécution et vérification
         assertEquals(responseDto, service.ajouter(requestDto));
         verify(pizzaDao, Mockito.times(1)).save(any(Pizza.class));
         verify(ingredientDao, Mockito.times(1)).findAllById(requestDto.ingrs());

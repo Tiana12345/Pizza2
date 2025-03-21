@@ -88,6 +88,7 @@ public class PizzaServiceImpl {
                 .toList();
     }
 
+
     public void supprimer(int id) throws EntityNotFoundException {
         if (pizzaDao.existsById(id))
             pizzaDao.deleteById(id);
@@ -95,7 +96,7 @@ public class PizzaServiceImpl {
             throw new EntityNotFoundException("Aucune pizza enregistrée avec cet id");
     }
 
-    public List<PizzaResponseDto> rechercher(Integer id, String nom, Ingredient ingredient) throws PizzaException {
+    public List<PizzaResponseDto> rechercher(Integer id, String nom, String ingredient) throws PizzaException {
         List<Pizza> liste = pizzaDao.findAll();
 
         liste = recherches(id, nom, ingredient, liste);
@@ -136,7 +137,7 @@ public class PizzaServiceImpl {
             pizzaExistant.setIngredients(pizza.getIngredients());
     }
 
-    private static List<Pizza> recherches(Integer id, String nom, Ingredient ingredient, List<Pizza> liste) {
+    private static List<Pizza> recherches(Integer id, String nom, String ingredient, List<Pizza> liste) {
         if (id != null && id > 0) {
             liste = liste.stream()
                     .filter(pizza -> pizza.getId() == id)
@@ -151,7 +152,7 @@ public class PizzaServiceImpl {
             liste = liste.stream()
                     .filter(pizza -> !pizza.getIngredients()
                             .stream()
-                            .filter(ingr -> ingr.getNom().equals(ingredient.getNom()))
+                            .filter(ingr -> ingr.getNom().equals(ingredient))
                             .toList().isEmpty())
                     .toList();
         }
