@@ -8,10 +8,10 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-.idea/misc.xml
 *.iws
 *.iml
 *.ipr
+
 
 ### Eclipse ###
 .apt_generated
@@ -39,3 +39,5 @@ build/
 .DS_Store
 
 log/
+
+
