@@ -1,6 +1,7 @@
 package com.accenture.controller.advice;
 
 import com.accenture.exception.IngredientException;
+import com.accenture.exception.PizzaException;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -37,5 +38,9 @@ public class ApplicationControllerAdvice {
         MessageError messageError= new MessageError(LocalDateTime.now(),"L'id n'existe pas" , ex.getMessage());
         log.error("Mauvaise requête");
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(messageError);
+    }
+    @ExceptionHandler(PizzaException.class)
+    public ResponseEntity<String> pizzaException(PizzaException ex) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
     }
 }
